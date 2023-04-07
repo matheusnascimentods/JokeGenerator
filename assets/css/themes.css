@@ -5,6 +5,10 @@
     background-color: #3a7ca5;
     color: #ffffff;
 }
+.Napoli .form-check-input:checked {
+    background-color: #3a7ca5;
+    border-color: #3a7ca5;
+}
 .Napoli #generate {
     background-color: #3a7ca5;
     color: #ffffff;
@@ -17,6 +21,10 @@
     background-color: #e5383b;
     color: #ffffff;
 }
+.Manchester-United .form-check-input:checked {
+    background-color: #e5383b;
+    border-color: #e5383b;
+}
 .Manchester-United #generate {
     background-color: #e5383b;
     color: #ffffff;
@@ -28,6 +36,10 @@
 .Wolfsburg .dropdown-menu .btn {
     background-color: #226f54;
     color: #ffffff;
+}
+.Wolfsburg .form-check-input:checked {
+    background-color: #226f54;
+    border-color: #226f54;
 }
 .Wolfsburg #generate {
     background-color: #226f54;

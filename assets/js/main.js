@@ -7,23 +7,21 @@ document.addEventListener('DOMContentLoaded', () =>
     apply.addEventListener('click', applyChanges);
 });
 
-function generateJoke() {
+async function generateJoke() {
     let paragraph = document.querySelector("#joke");
 
-    fetch('https://icanhazdadjoke.com/', {
-        headers: {
-            'Accept': 'application/json'
-        }
-    })
-    .then(function(response) 
-    {
-        return response.json();
-    })
-    .then(function(data) 
-    {
-        let joke = data.joke;
-        paragraph.innerHTML = joke;
-    }); 
+    try {
+        let response = await fetch('https://icanhazdadjoke.com/', {
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
+        let data = await response.json();
+        paragraph.innerHTML = data.joke;
+
+    } catch (error) {
+        console.error(error);
+    }
 }
 
 function applyChanges() {
