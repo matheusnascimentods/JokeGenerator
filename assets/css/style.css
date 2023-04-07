@@ -4,6 +4,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    align-items: center;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
 }
@@ -35,13 +36,13 @@ header div {
 .dropdown-menu.show {
     width: 200px;
 }
-main {
-    width: 100vw;
-    height: 100vh;
+
+section {
+    width: 100%;
+    height: 50%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 .joke-card {
     height: 250px;
