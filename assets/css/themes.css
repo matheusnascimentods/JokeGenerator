@@ -1,0 +1,35 @@
+.Napoli {
+    background-color: #3a7ca5;
+}
+.Napoli .dropdown-menu .btn {
+    background-color: #3a7ca5;
+    color: #ffffff;
+}
+.Napoli #generate {
+    background-color: #3a7ca5;
+    color: #ffffff;
+}
+
+.Manchester-United {
+    background-color: #e5383b;
+}
+.Manchester-United .dropdown-menu .btn {
+    background-color: #e5383b;
+    color: #ffffff;
+}
+.Manchester-United #generate {
+    background-color: #e5383b;
+    color: #ffffff;
+}
+
+.Wolfsburg {
+    background-color: #226f54
+}
+.Wolfsburg .dropdown-menu .btn {
+    background-color: #226f54;
+    color: #ffffff;
+}
+.Wolfsburg #generate {
+    background-color: #226f54;
+    color: #ffffff;
+}

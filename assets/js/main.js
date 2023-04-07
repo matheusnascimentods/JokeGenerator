@@ -1,8 +1,10 @@
-const button = document.querySelector("#generate");
+const generate = document.querySelector("#generate");
+const apply = document.querySelector("#apply");
 
 document.addEventListener('DOMContentLoaded', () =>
 {
-    button.addEventListener('click', generateJoke);
+    generate.addEventListener('click', generateJoke);
+    apply.addEventListener('click', applyChanges);
 });
 
 function generateJoke() {
@@ -22,4 +24,26 @@ function generateJoke() {
         let joke = data.joke;
         paragraph.innerHTML = joke;
     }); 
+}
+
+function applyChanges() {
+    let radioButtons = document.querySelectorAll(".form-check-input");
+    let option;
+    
+    for (var i = 0; i < radioButtons.length; i++) {
+        
+        if (radioButtons[i].checked) {
+            option = radioButtons[i].value;
+        }
+    }
+    
+    let themes = ['Napoli', 'Manchester-United', 'Wolfsburg'];
+    let body = document.querySelector('body');
+
+    themes.forEach(theme => {
+        
+        body.classList.remove(theme);
+    });
+
+    body.classList.add(option);
 }
