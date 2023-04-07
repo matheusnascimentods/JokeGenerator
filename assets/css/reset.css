@@ -49,3 +49,8 @@ table {
 p {
     font-size: 17px;
 }
+:root {
+	--napoli-color: #3a7ca5;
+	--manchester-color: #c1121f;
+	--wolfsburg-color: #226f54;
+}

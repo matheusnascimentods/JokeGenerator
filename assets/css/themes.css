@@ -1,47 +1,47 @@
 .Napoli {
-    background-color: #3a7ca5;
+    background-color: var(--napoli-color);
 }
 .Napoli .dropdown-menu .btn {
-    background-color: #3a7ca5;
+    background-color: var(--napoli-color);
     color: #ffffff;
 }
 .Napoli .form-check-input:checked {
-    background-color: #3a7ca5;
-    border-color: #3a7ca5;
+    background-color: var(--napoli-color);
+    border-color: var(--napoli-color);
 }
 .Napoli #generate {
-    background-color: #3a7ca5;
+    background-color: var(--napoli-color);
     color: #ffffff;
 }
 
 .Manchester-United {
-    background-color: #e5383b;
+    background-color: var(--manchester-color);
 }
 .Manchester-United .dropdown-menu .btn {
-    background-color: #e5383b;
+    background-color: var(--manchester-color);
     color: #ffffff;
 }
 .Manchester-United .form-check-input:checked {
-    background-color: #e5383b;
-    border-color: #e5383b;
+    background-color: var(--manchester-color);
+    border-color: var(--manchester-color);
 }
 .Manchester-United #generate {
-    background-color: #e5383b;
+    background-color: var(--manchester-color);
     color: #ffffff;
 }
 
 .Wolfsburg {
-    background-color: #226f54
+    background-color: var(--wolfsburg-color);
 }
 .Wolfsburg .dropdown-menu .btn {
-    background-color: #226f54;
+    background-color: var(--wolfsburg-color);
     color: #ffffff;
 }
 .Wolfsburg .form-check-input:checked {
-    background-color: #226f54;
-    border-color: #226f54;
+    background-color: var(--wolfsburg-color);
+    border-color: var(--wolfsburg-color);
 }
 .Wolfsburg #generate {
-    background-color: #226f54;
+    background-color: var(--wolfsburg-color);
     color: #ffffff;
 }
